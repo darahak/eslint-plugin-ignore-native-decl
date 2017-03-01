@@ -1,0 +1,41 @@
+{
+  "name": "eslint-plugin-ignore-native-decl",
+  "version": "0.0.0",
+  "description": "Preprocess JavaScript files to ignore forward declarations that use the `native function` notation for v8 extensions",
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "lint",
+    "ignore",
+    "native",
+    "function",
+    "declaration",
+    "v8",
+    "vm",
+    "extension"
+  ],
+  "author": "Dara Hak <dara.hak@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darahak/eslint-plugin-ignore-native-decl"
+  },
+  "bugs": {
+    "url": "https://github.com/darahak/eslint-plugin-ignore-native-decl/issues"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint --format=node_modules/eslint-formatter-pretty . || echo."
+  },
+  "devDependencies": {
+    "eslint": "^3.16.1",
+    "eslint-config-airbnb-base": "^11.1.0",
+    "eslint-formatter-pretty": "^1.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "jest": "^19.0.2"
+  },
+  "engines": {
+    "node": ">=4.x"
+  },
+  "license": "MIT"
+}
