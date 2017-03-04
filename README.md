@@ -29,8 +29,3 @@ Add `ignore-native-decl` to the plugins section of your `.eslintrc` configuratio
     ]
 }
 ```
-
-
-
-
-
