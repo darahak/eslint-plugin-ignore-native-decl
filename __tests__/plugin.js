@@ -3,7 +3,7 @@ const fs = require('fs');
 const processor = require('../lib/processors/nativeFunction');
 
 function format(file) {
-  const filePath = path.join(__dirname, '../fixtures', file);
+  const filePath = path.join(__dirname, 'fixtures', file);
   const text = fs.readFileSync(filePath, { encoding: 'utf-8' });
   return processor.preprocess(text);
 }

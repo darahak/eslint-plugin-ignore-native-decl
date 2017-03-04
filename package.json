@@ -38,6 +38,12 @@
     "eslint-plugin-jest": "^19.0.1",
     "jest": "^19.0.2"
   },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/fixtures/"
+    ]
+  },
   "engines": {
     "node": ">=4.x"
   },
