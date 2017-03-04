@@ -27,11 +27,15 @@
     "test": "jest",
     "lint": "eslint --format=node_modules/eslint-formatter-pretty . || echo."
   },
+  "dependencies": {
+    "applause": "^1.2.2"
+  },
   "devDependencies": {
     "eslint": "^3.16.1",
     "eslint-config-airbnb-base": "^11.1.0",
     "eslint-formatter-pretty": "^1.1.0",
     "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jest": "^19.0.1",
     "jest": "^19.0.2"
   },
   "engines": {
