@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-ignore-native-decl",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Preprocess JavaScript files to ignore forward declarations that use the `native function` notation for v8 extensions",
   "keywords": [
     "eslint",
