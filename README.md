@@ -1,6 +1,6 @@
 # eslint-plugin-ignore-native-decl
 
-Preprocess JavaScript files to ignore forward declarations that use the `native function` notation for extensions
+Preprocess JavaScript files to ignore forward declarations that use the `native function` notation for v8 extensions.
 
 ## Installation
 
