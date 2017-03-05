@@ -28,6 +28,7 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "jest && codecov",
+    "testNoCov": "jest",
     "lint": "eslint --format=node_modules/eslint-formatter-pretty . || echo."
   },
   "dependencies": {
