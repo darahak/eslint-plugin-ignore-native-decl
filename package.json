@@ -27,13 +27,14 @@
   },
   "main": "lib/index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest && codecov",
     "lint": "eslint --format=node_modules/eslint-formatter-pretty . || echo."
   },
   "dependencies": {
     "applause": "^1.2.2"
   },
   "devDependencies": {
+    "codecov": "^1.0.1",
     "eslint": "^3.16.1",
     "eslint-config-airbnb-base": "^11.1.0",
     "eslint-formatter-pretty": "^1.1.0",
@@ -45,7 +46,9 @@
     "testPathIgnorePatterns": [
       "/node_modules/",
       "/fixtures/"
-    ]
+    ],
+    "coverageDirectory": "./coverage",
+    "collectCoverage": true
   },
   "engines": {
     "node": ">=4.x"
