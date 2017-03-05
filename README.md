@@ -1,4 +1,7 @@
-# eslint-plugin-ignore-native-decl [![Build Status](https://travis-ci.org/darahak/eslint-plugin-ignore-native-decl.svg?branch=master)](https://travis-ci.org/darahak/eslint-plugin-ignore-native-decl)
+[![Build status](https://ci.appveyor.com/api/projects/status/uy01qb7ah39klmuq/branch/master?svg=true)](https://ci.appveyor.com/project/darahak/eslint-plugin-ignore-native-decl/branch/master)
+[![Build Status](https://travis-ci.org/darahak/eslint-plugin-ignore-native-decl.svg?branch=master)](https://travis-ci.org/darahak/eslint-plugin-ignore-native-decl)
+
+# eslint-plugin-ignore-native-decl
 
 Preprocess JavaScript files to ignore forward declarations that use the `native function` notation for v8 extensions.
 
