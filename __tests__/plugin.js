@@ -11,5 +11,5 @@ function format(file) {
 test('Replaces all occurrences of native functions with empty functions', () => {
   const transformed = format('nativeDecl.js')[0];
   expect(transformed).not.toContain('native');
-  expect(transformed).toContain('{}');
+  expect(transformed).toContain('function() {}');
 });
