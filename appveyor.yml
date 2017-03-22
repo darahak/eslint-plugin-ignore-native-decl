@@ -21,7 +21,7 @@ test_script:
   - npm --version
   - yarn --version
   # Run tests without coverage: Codecov triggers an error on Windows.
-  - yarn run testNoCov
+  - yarn run test
 
 # Cache to speed up builds.
 cache:
