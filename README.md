@@ -4,20 +4,28 @@
 
 # eslint-plugin-ignore-native-decl
 
-Preprocess JavaScript files to ignore forward declarations that use the `native function` notation for v8 extensions.
+Preprocess JavaScript files to ignore forward declarations that use the `native function` notation for V8 extensions.
+You can find more details on V8 extensions in this [wiki article](https://github.com/adobe/brackets-shell/wiki/Writing-V8-Extensions).
 
 ## Installation
 
 You'll first need to install [ESLint](http://eslint.org):
 
 ```
-$ npm i eslint --save-dev
+$ npm install eslint --save-dev
 ```
 
 Next, install `eslint-plugin-ignore-native-decl`:
 
 ```
 $ npm install eslint-plugin-ignore-native-decl --save-dev
+```
+
+You can also use [Yarn](https://yarnpkg.com/en/):
+
+```
+$ yarn add eslint --dev
+$ yarn add eslint-plugin-ignore-native-decl --dev
 ```
 
 **Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-ignore-native-decl` globally.
