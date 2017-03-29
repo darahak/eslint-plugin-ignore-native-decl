@@ -11,21 +11,21 @@ You can find more details on V8 extensions in this [wiki article](https://github
 
 You'll first need to install [ESLint](http://eslint.org):
 
-```
-$ npm install eslint --save-dev
+```bash
+npm install eslint --save-dev
 ```
 
 Next, install `eslint-plugin-ignore-native-decl`:
 
-```
-$ npm install eslint-plugin-ignore-native-decl --save-dev
+```bash
+npm install eslint-plugin-ignore-native-decl --save-dev
 ```
 
 You can also use [Yarn](https://yarnpkg.com/en/):
 
-```
-$ yarn add eslint --dev
-$ yarn add eslint-plugin-ignore-native-decl --dev
+```bash
+yarn add eslint --dev
+yarn add eslint-plugin-ignore-native-decl --dev
 ```
 
 **Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-ignore-native-decl` globally.
