@@ -30,7 +30,7 @@
     "test": "jest",
     "cov": "codecov",
     "lint": "eslint --format=node_modules/eslint-formatter-pretty . || echo.",
-    "format": "prettier --single-quote --write \"{__tests__,lib}/**/*.js\""
+    "format": "prettier --single-quote --write \"{__tests__/*.js,lib/**/*.js}\""
   },
   "dependencies": {
     "applause": "^1.2.2"
