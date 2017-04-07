@@ -2,6 +2,7 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/uy01qb7ah39klmuq/branch/master?svg=true)](https://ci.appveyor.com/project/darahak/eslint-plugin-ignore-native-decl/branch/master)
 [![Build Status](https://travis-ci.org/darahak/eslint-plugin-ignore-native-decl.svg?branch=master)](https://travis-ci.org/darahak/eslint-plugin-ignore-native-decl)
 [![codecov](https://codecov.io/gh/darahak/eslint-plugin-ignore-native-decl/branch/master/graph/badge.svg)](https://codecov.io/gh/darahak/eslint-plugin-ignore-native-decl)
+[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/darahak/eslint-plugin-ignore-native-decl/master/LICENSE)
 
 # eslint-plugin-ignore-native-decl
