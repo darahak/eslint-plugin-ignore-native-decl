@@ -27,9 +27,10 @@
   },
   "main": "lib/index.js",
   "scripts": {
-    "test": "jest",
-    "cov": "codecov",
-    "lint": "eslint --format=node_modules/eslint-formatter-pretty . || echo."
+    "test": "jest && codecov",
+    "testNoCov": "jest",
+    "lint": "eslint --format=node_modules/eslint-formatter-pretty . || echo.",
+    "format": "prettier --single-quote --write \"{__tests__,lib}/**/*.js\""
   },
   "dependencies": {
     "applause": "^1.2.2"
@@ -41,7 +42,8 @@
     "eslint-formatter-pretty": "^1.1.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jest": "^19.0.1",
-    "jest": "^19.0.2"
+    "jest": "^19.0.2",
+    "prettier": "^0.22.0"
   },
   "jest": {
     "testPathIgnorePatterns": [
