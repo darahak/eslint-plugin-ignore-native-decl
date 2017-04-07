@@ -27,8 +27,8 @@
   },
   "main": "lib/index.js",
   "scripts": {
-    "test": "jest && codecov",
-    "testNoCov": "jest",
+    "test": "jest",
+    "cov": "codecov",
     "lint": "eslint --format=node_modules/eslint-formatter-pretty . || echo.",
     "format": "prettier --single-quote --write \"{__tests__,lib}/**/*.js\""
   },
