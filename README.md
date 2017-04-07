@@ -1,3 +1,4 @@
+[![npm](https://img.shields.io/npm/v/eslint-plugin-ignore-native-decl.svg)](https://www.npmjs.com/package/eslint-plugin-ignore-native-decl)
 [![Build status](https://ci.appveyor.com/api/projects/status/uy01qb7ah39klmuq/branch/master?svg=true)](https://ci.appveyor.com/project/darahak/eslint-plugin-ignore-native-decl/branch/master)
 [![Build Status](https://travis-ci.org/darahak/eslint-plugin-ignore-native-decl.svg?branch=master)](https://travis-ci.org/darahak/eslint-plugin-ignore-native-decl)
 [![codecov](https://codecov.io/gh/darahak/eslint-plugin-ignore-native-decl/branch/master/graph/badge.svg)](https://codecov.io/gh/darahak/eslint-plugin-ignore-native-decl)
