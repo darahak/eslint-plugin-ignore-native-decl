@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Leaves source code untouched if it has no native function declarations 1`] = `
+"function a() {}
+var b = function() {};
+let c = function() {};
+const d = function() {};
+const e = () => {};
+"
+`;
+
+exports[`Replaces all occurrences of native functions with empty functions 1`] = `
+"var aaa = function() {};
+var bbb = function() {};
+var ccc = function() {};
+"
+`;

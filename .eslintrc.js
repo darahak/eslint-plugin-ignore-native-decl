@@ -1,17 +1,9 @@
 module.exports = {
-  extends: ['airbnb-base', 'plugin:jest/recommended'],
+  extends: ['eslint:recommended', 'plugin:jest/recommended'],
   plugins: ['jest'],
   env: {
-    'jest/globals': true
-  },
-  rules: {
-    'comma-dangle': ['error', 'never'],
-    'no-unused-vars': [
-      'error',
-      {
-        args: 'none'
-      }
-    ],
-    'padded-blocks': ['error', 'never']
+    'jest/globals': true,
+    es2017: true,
+    node: true
   }
 };
